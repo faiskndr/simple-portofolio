@@ -4,10 +4,20 @@
       <div class="flex justify-evenly p-12 text-white">
         <NuxtLogo/>
         <div class="space-x-24">
-        <a class="hover:text-slate-500" href="#">Home</a>
-        <a class="hover:text-slate-500" href="#">About</a>
-        <a class="hover:text-slate-500" href="#">Project</a>
-        <a class="hover:text-slate-500" href="#">Contact</a>
+          <ul class="block lg:flex">
+            <li>
+              <a class="hover:text-slate-500 mx-8" href="#">Home</a>
+            </li>
+            <li>
+              <a class="hover:text-slate-500 mx-8" href="#">About</a>
+            </li>
+            <li>
+              <a class="hover:text-slate-500 mx-8" href="#">Project</a>
+            </li>
+            <li>
+              <a class="hover:text-slate-500 mx-8" href="#">Contact</a>
+            </li>
+          </ul>  
       </div>
       </div>
     </div>

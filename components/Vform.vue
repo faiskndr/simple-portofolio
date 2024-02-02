@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form action="">
+    <form action="" class="text-white">
       <Vinput v-model="email" label="Email" type="email"/>
       <Vinput v-model="name" label="Name" type="text"/>
       <Vinput v-model="message" label="Message" type="text"/>

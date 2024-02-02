@@ -1,6 +1,8 @@
 <template>
   <div >
-    <Navbar/>
+    <Navbar 
+      :links="links"
+    />
     <Nuxt/>
     <Footer/>
   </div>
@@ -11,6 +13,15 @@
   export default{
     components:{
       Navbar,
+    },
+    data:function(){
+      return{links:[
+        {title:'Home'},
+        {title:'About'},
+        {title:'Project'},
+        {title:'Contact'}
+      ]
+      }
     }
   }
 </script>
